@@ -19,7 +19,7 @@ class EmailParser
     string_array = @string.split(/[,]| | /).select {|t| t.length > 3}
     string_array
 
-    #binding.pry
+    binding.pry
 
   end
 
