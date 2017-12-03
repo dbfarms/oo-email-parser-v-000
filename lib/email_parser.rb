@@ -7,9 +7,15 @@ class EmailParser
 
   attr_accessor :set_email, :get_email
 
+  def initialize(string)
+    @string = string 
+
+  end 
+
   def parses
 
-
+    string_array = @string.split(/[,]| | /)
+    binding.pry 
 
   end
 
