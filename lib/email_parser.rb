@@ -5,6 +5,12 @@
 
 class EmailParser
 
+  attr_accessor :set_email, :get_email
+
+  def parses
 
 
-end 
+
+  end
+
+end
