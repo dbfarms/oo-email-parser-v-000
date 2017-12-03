@@ -12,7 +12,7 @@ class EmailParser
 
   end
 
-  def parses
+  def parse
 
     string_array = @string.split(/[,]| | /)
     binding.pry
